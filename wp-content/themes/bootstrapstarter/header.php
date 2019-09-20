@@ -14,7 +14,12 @@
 </head>
 
 <body <?php body_class(); ?>>
-<!-- <img src="<?php echo get_bloginfo('template_url') ?>/img/171524024.jpg"> -->
+<!-- 
+    CONTOH KALAU MAU ADD IMAGE : 
+    - Masukin image ke folder img
+    - panggil script dibawah ini, harus sama ya. nama filenya doang yg beda
+    <img src="<?php echo get_bloginfo('template_url') ?>/img/171524024.jpg"> 
+-->
 <div class="blog-masthead">
     <div class="container">
         <nav class="blog-nav">
