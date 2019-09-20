@@ -1,0 +1,42 @@
+body {
+    background: white;
+}
+
+h3 {
+    font-family: Calibri;
+    font-size: 25pt;
+    font-style: normal;
+    font-weight: bold;
+    color: SlateBlue;
+    text-align: center;
+    text-decoration: underline
+}
+
+.wrap {
+    background: slateblue;
+    width: 900px;
+    margin: 0 auto;
+}
+
+table {
+    font-family: Calibri;
+    color: white;
+    font-size: 11pt;
+    font-style: normal;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+.submit {
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[name="Other_Hobby"] {
+    width: 50%;
+}
