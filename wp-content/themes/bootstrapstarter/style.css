@@ -17,12 +17,7 @@ body {
   color: #555;
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -40,115 +35,92 @@ h6, .h6 {
 
 /* FARHAN */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* /FARHAN */
-
 
 /* ZIKRI */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* /ZIKRI */
-
 
 /* TIARA */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* /TIARA */
-
 
 /* SALMAN */
 
+.headerFale h4 {
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
 
+.headerFale h4:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  bottom: 0;
+  border-bottom: 3px solid darkturquoise;
+}
 
+.containerSalman {
+  width: 100%;
+  background: #f0f0f0;
+}
 
+.headerFale {
+  padding: 10px;
+}
 
+.Fale {
+  font-weight: bold;
+  font-size: 2.25rem;
+}
 
+.contentFale {
+  padding: 10px;
+  padding-bottom: 30px;
+}
 
+.secContent {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+.textFale {
+  color: gray;
+}
 
+.textGambar {
+  font-size: 2.5rem;
+  color: gray;
+}
 
+.textGambar img {
+  max-width: 30px;
+}
 
+.textGambar2 {
+  font-size: 3rem;
+  color: gray;
+}
 
+.textGambar2:hover {
+  color: darkturquoise;
+}
+
+.textGambar2 img {
+  max-width: 30px;
+}
 
 /* /SALMAN */
 
 /* AFIF M */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* /AFIF M */
 
 /* ANGGITA */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* /ANGGITA */
 
 /* MEL */
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* /MEL */
