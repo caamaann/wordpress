@@ -90,6 +90,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 /* SALMAN */
 .containerSalman {
   background: #f0f0f0;
+  padding-bottom: 5%;
+  padding-top:2%;
 }
 
 .headerFale h4 {
