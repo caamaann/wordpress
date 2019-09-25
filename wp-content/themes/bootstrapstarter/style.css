@@ -14,7 +14,7 @@ Text Domain: bootstrapstarter
  */
 
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #555;
 }
 
@@ -37,14 +37,53 @@ h6,
 }
 
 
-/* 
+/*
   YANG ATAS JANGAN DIEDIT DULU YA
   KALIAN KALAU MAU NAMBAH CLASS DIBAWAH INI
   SESUAI DENGAN NAMA
-  
+
   JANGAN LUPA KALAU MAU BIKIN CLASS/APAPUN
   CEK DULU APAKAH UDAH ADA ATAU BELUM
   */
+
+
+/* FARHAN */
+
+.foot1 {
+    background-color: #E7E7E7;
+    padding: 3% 0px;
+    font-weight: bold;
+}
+
+.foot1>div>div>div::before {
+    content: "/";
+}
+
+.foot1>div>div>div::after {
+    content: "/";
+}
+
+.foot1>div>div>div {
+    content: "/";
+    text-align: center;
+}
+
+.foot2 {
+    background-color: #1BB5D9;
+    border-bottom: 3px solid #fff;
+    color: white;
+}
+
+.foot2>div>div>div>img {
+    margin: 0px auto;
+    width: 100px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.foot2>div>div>div {
+    text-align: center;
+}
 
 
 /* FARHAN */
@@ -66,6 +105,71 @@ h6,
 
 
 /* SALMAN */
+
+.containerSalman {
+    background: #f0f0f0;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.headerFale h4 {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.headerFale h4:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    bottom: 0;
+    border-bottom: 3px solid darkturquoise;
+}
+
+.headerFale {
+    padding: 10px;
+}
+
+.Fale {
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+.contentFale {
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.secContent {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.textFale {
+    color: gray;
+}
+
+.textGambar {
+    font-size: 2.5rem;
+    color: gray;
+}
+
+.textGambar img {
+    max-width: 30px;
+}
+
+.textGambar2 {
+    font-size: 3rem;
+    color: gray;
+}
+
+.textGambar2:hover {
+    color: darkturquoise;
+}
+
+.textGambar2 img {
+    max-width: 30px;
+}
 
 
 /* /SALMAN */
