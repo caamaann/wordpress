@@ -3,110 +3,110 @@
 <!-- ZIKRI -->
 <div>
     <div class="service container-fluid">
-    <div class="servicos tittle">
-        <p><b>O QUE EU</b><br>PRECISO?</p>
+        <div class="servicos tittle">
+            <p><b>O QUE EU</b><br>PRECISO?</p>
+        </div>
+        <img class="img-fluid tittle" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
+
+        <div>
+            <div class="box mrgn text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Centro de Operacoes</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Onde Ser Atendido</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Vigilancia Sanitaria</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Transparencia SISREG</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Matricula On-line</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Calendario Escolar</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Licitacoes de Imovies</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Agenda Cultural Cultural</b></h2>
+            </div>
+            <div class="box mrgn text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Transparencia Rio</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Rio Transparente</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>IPTU Transparencia</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box mrgn text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Controle de Roedores</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+            <div class="box text-center">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+                <h2 class="named"><b>Estacionamento Irregular</b></h2>
+            </div>
+        </div>
     </div>
-    <img class="img-fluid tittle" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
-    
-    <div>
-        <div class="box mrgn text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Centro de Operacoes</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Onde Ser Atendido</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Vigilancia Sanitaria</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Transparencia SISREG</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Matricula On-line</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Calendario Escolar</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Licitacoes de Imovies</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Agenda Cultural Cultural</b></h2>
-        </div>
-        <div class="box mrgn text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Transparencia Rio</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Rio Transparente</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>IPTU Transparencia</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box mrgn text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Controle de Roedores</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-        <div class="box text-center">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
-            <h2 class="named"><b>Estacionamento Irregular</b></h2>
-        </div>
-    </div>
-</div>
 </div>
 <!-- /ZIKRI -->
 
@@ -116,7 +116,9 @@
 
 <!-- ANGGITA -->
 <div class="container-fluid">
-        <img class="img-fluid imgs" src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery.png">       
+    <div class="container">
+        <img class="img-fluid imgs" src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery.png">
+    </div>
 </div>
 
 <div class="service container-fluid">
@@ -124,7 +126,7 @@
         <p><b>Serviços</b><br>1746</p>
     </div>
     <img class="img-fluid tittle" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
-    
+
     <div>
         <div class="box mrgn text-center">
             <img src="<?php echo get_bloginfo('template_url') ?>/img/img1.png">
@@ -175,84 +177,92 @@
 
 <!-- MEL -->
 <div class="container-fluid mycolom">
-<div class="row">
-<div class="col-sm-6 colom">
- <header class="header-secao"> 
-    <h1 class="titulo">
-      <span class="palavra-destaque"><b>Diário</b> <br> Oficial<span>
-        </h1> 
- </header>
- <a href="#">
-  <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel1.jpg"> </a> 
-  <div class="texto"> <p>Tenha acesso a todo o conteúdo do Diário Oficial Eletrônico do Município do Rio de Janeiro e suas edições anteriores.</p><br><button type="button" class="btn btn-info"> D.O. Online</button></div>
-  </div>
-<div class="col-sm-6 colom">
+    <div class="row">
+        <div class="col-sm-6 colom">
+            <header class="header-secao">
+                <h1 class="titulo">
+                    <span class="palavra-destaque"><b>Diário</b> <br> Oficial<span>
+                </h1>
+            </header>
+            <a href="#">
+                <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel1.jpg"> </a>
+            <div class="texto">
+                <p>Tenha acesso a todo o conteúdo do Diário Oficial Eletrônico do Município do Rio de Janeiro e suas edições anteriores.</p><br><button type="button" class="btn btn-info"> D.O. Online</button>
+            </div>
+        </div>
+        <div class="col-sm-6 colom">
 
-<header class="header-secao"> 
-    <h1 class="titulo"> <span class="palavra-destaque"><b>Portal</b> <br> do Servidor</span>
-    </h1> 
-</header>
- <a href="#">
-  <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel2.jpg">  </a> 
-<div class="texto"> 
-    <p>Acesse o Portal do Servidor e fique por dentro de tudo o que a Prefeitura está realizando.</p><br>
-    <button type="button" class="btn btn-info"> Portal do Servidor</button> 
-</div> 
-</div>  
-</div> 
+            <header class="header-secao">
+                <h1 class="titulo"> <span class="palavra-destaque"><b>Portal</b> <br> do Servidor</span>
+                </h1>
+            </header>
+            <a href="#">
+                <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel2.jpg"> </a>
+            <div class="texto">
+                <p>Acesse o Portal do Servidor e fique por dentro de tudo o que a Prefeitura está realizando.</p><br>
+                <button type="button" class="btn btn-info"> Portal do Servidor</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="container">
-<header class="header-section"> 
-    <h1 class="title"> <small>Vídeos</small> <br> <span class="word-accent">Prefeitura </span> 
-    </h1> 
-  </header> 
-  <p class="description"> Assista aos vídeos da Prefeitura do Rio de Janeiro. Você sempre pode acompanhar nossas novidades por aqui.
-  </p> 
-<div class="row">
-<div class="col-sm-4">
-    <h2 class="subtitle"><b>Destaque</b></h2> 
-       <a class="link open-video" href="#">
-     <img src="<?php echo get_bloginfo('template_url') ?>/img/gmbr1.jpg">
-      </a> 
-</div>
-<div class="col-sm-4">
-  <h2 class="subtitle"><b>Últimos Vídeos</b></h2>
-  <ul class="list"> 
-        <li class="item">
-            <a class="link open-video" href="#"> 
-            <img class="video" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil1.jpg">
-            <h3 class="video-title">Projeto Resgate Solidário acolhe pessoas em situação de rua em Copacabana</h3> </a> </li>
-        <li class="item">
-            <a class="link open-video" href="#"> 
-            <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil2.jpg">
-            <h3 class="video-title">Boas histórias: autonomia mudou vida de motorista de táxi que antes pagava diária</h3> </a> 
-        </li> 
-        <li class="item"> 
-            <a class="link open-video" href="#"> 
-            <img class="video" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil3.jpg"> 
-            <h3 class="video-title">A Cidade Maravilhosa das belezas naturais é também a dos tesouros arquitetônicos</h3> </a> 
-        </li>
-   </ul>
-</div>  
-<div class="col-sm-4">
-<ul class="list1">
-  <li class="item"> 
-      <a class="link open-video" href="#"> 
-          <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil4.jpg"> 
-          <h3 class="video-title">Programa da Prefeitura dá assistência a pessoas "invisíveis"</h3> 
-      </a> 
-  </li>
-  <li class="item"> <a class="link open-video" href="#"> <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil5.jpg"> <h3 class="video-title">Quer ser voluntário da Defesa Civil? Qualquer cidadão pode! Saiba como</h3> </a> </li> 
-  <li class="item"> 
-    <a class="link open-video" href="#"> 
-        <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil6.jpg"> <h3 class="video-title">Moradias Assistidas: o lar doce lar de pessoas com deficiência</h3> 
-    </a> 
-  </li> 
-</ul> 
-  <a class="link-more" href="#">Veja mais vídeos</a> 
-</div> 
-</div> 
+    <header class="header-section">
+        <h1 class="title"> <small>Vídeos</small> <br> <span class="word-accent">Prefeitura </span>
+        </h1>
+    </header>
+    <p class="description"> Assista aos vídeos da Prefeitura do Rio de Janeiro. Você sempre pode acompanhar nossas novidades por aqui.
+    </p>
+    <div class="row">
+        <div class="col-sm-4">
+            <h2 class="subtitle"><b>Destaque</b></h2>
+            <a class="link open-video" href="#">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/gmbr1.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4">
+            <h2 class="subtitle"><b>Últimos Vídeos</b></h2>
+            <ul class="list">
+                <li class="item">
+                    <a class="link open-video" href="#">
+                        <img class="video" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil1.jpg">
+                        <h3 class="video-title">Projeto Resgate Solidário acolhe pessoas em situação de rua em Copacabana</h3>
+                    </a> </li>
+                <li class="item">
+                    <a class="link open-video" href="#">
+                        <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil2.jpg">
+                        <h3 class="video-title">Boas histórias: autonomia mudou vida de motorista de táxi que antes pagava diária</h3>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link open-video" href="#">
+                        <img class="video" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil3.jpg">
+                        <h3 class="video-title">A Cidade Maravilhosa das belezas naturais é também a dos tesouros arquitetônicos</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="list1">
+                <li class="item">
+                    <a class="link open-video" href="#">
+                        <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil4.jpg">
+                        <h3 class="video-title">Programa da Prefeitura dá assistência a pessoas "invisíveis"</h3>
+                    </a>
+                </li>
+                <li class="item"> <a class="link open-video" href="#"> <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil5.jpg">
+                        <h3 class="video-title">Quer ser voluntário da Defesa Civil? Qualquer cidadão pode! Saiba como</h3>
+                    </a> </li>
+                <li class="item">
+                    <a class="link open-video" href="#">
+                        <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil6.jpg">
+                        <h3 class="video-title">Moradias Assistidas: o lar doce lar de pessoas com deficiência</h3>
+                    </a>
+                </li>
+            </ul>
+            <a class="link-more" href="#">Veja mais vídeos</a>
+        </div>
+    </div>
 </div>
 <!-- / MEL -->
 
