@@ -59,8 +59,50 @@
 
 
 <!-- ANGGITA -->
-<div>
-    anggita
+<div class="container-fluid">
+        <img class="img-fluid imgs" src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery.png">       
+</div>
+
+<div class="service container-fluid">
+    <div class="servicos tittle">
+        <p><b>Serviços</b><br>1746</p>
+    </div>
+    <img class="img-fluid tittle" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
+    
+    <div>
+        <div class="box mrgn text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/img1.png">
+            <h2 class="named"><b>Controle de Roedores</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/img2.png">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/img3.png">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/img4.png">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/img5.png">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/img6.png">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/img7.png">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/img8.png">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+    </div>
 </div>
 <!-- / ANGGITA -->
 
