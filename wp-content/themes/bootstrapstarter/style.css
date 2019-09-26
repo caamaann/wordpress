@@ -125,6 +125,41 @@ h6,
 
 /* ZIKRI */
 
+.container-grid-zikri {
+    background-image: url("img/bg-grid-container.png");
+    margin-top: 20px;
+}
+
+.grid-title-zikri {
+    padding-top: 20px;
+    font-size: 2em;
+    padding-left: 150px;
+}
+
+.arrow-image {
+    padding-left: 150px;
+}
+
+.box:hover {
+    border-color: #1BB5D9;
+}
+
+
+/* .box-zikri {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    width: 100px;
+    background-color: rgb(192, 184, 184);
+    border-style: groove;
+} */
+
+
+/* .tittle {
+    padding-left: 150px;
+} */
+
 
 /* /ZIKRI */
 
@@ -214,32 +249,34 @@ h6,
 
 
 /* ANGGITA */
-.service{
-  background-image: url("img/bg-servicos.png");
-  margin-top: 20px;
-}
 
 .service {
     background-image: url("img/bg-servicos.png");
     margin-top: 20px;
 }
 
-.tittle{
-    padding-left: 100px;
+.servicos {
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+.tittle {
+    padding-left: 150px;
 }
 
 .mrgn {
-  margin-left: 100px;
+    margin-left: 150px;
 }
 
-.box{
-  display: inline-block;
-  margin-top: 20px;
-  margin-right: 25px;
-  margin-bottom: 20px;
-  width: 100px;
-  background-color: #e5e5e5;
+.box {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    width: 100px;
+    border: solid 3px transparent;
 }
+
 
 .servicos:after {
     content: "";
@@ -342,7 +379,7 @@ ul.list1{
 
 .gmbarvideo{
   display: inline;
-} 
+}
 
 .video-title{
   font-size: 14px;
@@ -380,8 +417,8 @@ padding-top: 10px;
 }
 
 .gmbar{
-  float: left; 
-  margin: 8px 8px 3px 0px; 
+  float: left;
+  margin: 8px 8px 3px 0px;
 }
 
 h1.title{
