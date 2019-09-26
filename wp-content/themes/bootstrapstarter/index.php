@@ -166,9 +166,78 @@
 
 
 <!-- AFIF -->
-<div>
-    Afif
-</div>
+<div class="container-fluid rio">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+        <header class="headerFale">
+        <h4>
+        <span class="Fale"> RIO </span> 
+        <span>FAZ</span>
+        </h4>
+        </header>
+        </div>
+        <div class="col-sm-5">
+        <header class="headerFale">
+        <h4>
+        <span class="Fale"> RIO </span> 
+        <span>ACONTECE</span>
+        </h4>
+        </header>
+        </div>
+        <div class="col-sm-1">
+        <img src="<?php echo get_bloginfo('template_url') ?>/img/list.jpg">
+        </div>
+    </div>
+    <div class="efek">
+    <div class="row afif">
+        <div class="col-sm-6">
+            <a class="zooming" href="http://noticias.prefeitura.rio/transportes/cet-rio-vai-expandir-acoes-de-educacao-no-transito-na-cidade-atraves-do-projeto-zona-30/">
+            <h4>CET-Rio vai expandir ações de educação no trânsito na cidade por meio do projeto Zona 30</h4>
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/Rio_Faz.jpg">
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a class="zooming" href="http://noticias.prefeitura.rio/comlurb/comlurb-apresenta-caminhoes-de-coleta-de-lixo-100-eletricos-e-faz-do-rio-cidade-pioneira-no-ocidente/">
+            <h4>Comlurb apresenta caminhões de coleta de lixo 100% elétricos e faz do Rio cidade pioneira no Ocidente</h4>
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/Rio_Acontece.jpg">
+            </a>
+        </div>    
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <a href="http://noticias.prefeitura.rio/transportes/secretaria-de-transportes-esclarece-que-multas-continuam-sendo-processadas-normalmente/">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/Secretaria.jpg">
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a href="http://noticias.prefeitura.rio/comlurb/comlurb-mobiliza-1-143-garis-para-garantir-limpeza-100-sustentavel-no-rock-in-rio-2019/">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/Rock.jpg">
+            </a>
+        </div>    
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+        <a href="http://noticias.prefeitura.rio/meio-ambiente/floresta-dos-atletas-comeca-a-receber-13-mil-mudas-de-207-especies-da-mata-atlantica/">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/Floresta.jpg">
+        </a>
+        </div>
+        <div class="col-sm-6">
+        <a href="http://noticias.prefeitura.rio/cet-rio/prefeitura-monta-esquema-especial-de-transito-para-o-rock-in-rio-2019/">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/Prefeitura.jpg">
+        </a>
+        </div> 
+    </div>       
+    </div>
+    <div class="row tombol">
+        <div class="col-sm-6">
+            <a href="http://noticias.prefeitura.rio/todas-as-noticias/">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/Todas.jpg">
+            </a>
+        </div>
+    </div>
+    </div>
+</div> 
 <!-- / AFIF -->
 
 

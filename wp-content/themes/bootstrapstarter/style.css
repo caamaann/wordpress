@@ -58,36 +58,36 @@ h6,
 .foot1>div>div>div::before {
     content: "/";
 }
-.foot2 > div > div > div{
-  text-align: center;
 
+.foot2>div>div>div {
+    text-align: center;
 }
 
 #back-to-top {
-  display:none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  background: #6195FF;
-  border-radius:3px;
-  color: #FFF;
-  z-index: 9999;
-  -webkit-transition: 0.2s opacity;
-  transition: 0.2s opacity;
-  cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #6195FF;
+    border-radius: 3px;
+    color: #FFF;
+    z-index: 9999;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    cursor: pointer;
 }
 
 #back-to-top:after {
-  content: "\f106";
-  font-family: 'FontAwesome';
+    content: "\f106";
+    font-family: 'FontAwesome';
 }
 
 #back-to-top:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .foot1>div>div>div::after {
@@ -163,7 +163,7 @@ h6,
 
 .Fale {
     font-weight: bold;
-    font-size: 2.25rem;
+    font-size: 2.75rem;
 }
 
 .contentFale {
@@ -195,8 +195,8 @@ h6,
 }
 
 .textGambar2:hover {
-  color: darkturquoise;
-  cursor: pointer;
+    color: darkturquoise;
+    cursor: pointer;
 }
 
 .textGambar2 img {
@@ -209,14 +209,95 @@ h6,
 
 /* AFIF M */
 
+.afif h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.rio {
+    padding-top: 8%;
+}
+
+.tombol img {
+    max-width: 183px;
+}
+
+
+/* The Image container */
+
+
+/* .zooming { */
+
+
+/* height: 532px; */
+
+
+/* Modify this according to your need */
+
+
+/* overflow: hidden; */
+
+
+/* Removing this will break the effects */
+
+
+/* } */
+
+
+/* Slow-motion Zoom Container */
+
+
+/* .zooming img {
+    max-width: 100%;
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 3s ease-in-out;
+    filter: brightness(150%);
+} */
+
+
+/* The Transformation */
+
+
+/* .zooming:hover img {
+    filter: brightness(100%);
+    transform: scale(3);
+} */
+
+.tombol img {
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.tombol img:hover {
+    opacity: 1
+}
+
+.efek img {
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.efek img:hover {
+    opacity: 1
+}
+
 
 /* /AFIF M */
 
 
 /* ANGGITA */
-.service{
-  background-image: url("img/bg-servicos.png");
-  margin-top: 20px;
+
+.service {
+    background-image: url("img/bg-servicos.png");
+    margin-top: 20px;
 }
 
 .service {
@@ -224,21 +305,21 @@ h6,
     margin-top: 20px;
 }
 
-.tittle{
+.tittle {
     padding-left: 100px;
 }
 
 .mrgn {
-  margin-left: 100px;
+    margin-left: 100px;
 }
 
-.box{
-  display: inline-block;
-  margin-top: 20px;
-  margin-right: 25px;
-  margin-bottom: 20px;
-  width: 100px;
-  background-color: #e5e5e5;
+.box {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    width: 100px;
+    background-color: #e5e5e5;
 }
 
 .servicos:after {
@@ -257,7 +338,7 @@ h6,
     max-width: 1000px;
 }
 
-.box img{
+.box img {
     width: 3em;
     height: auto;
     /* padding: 10px; */
@@ -271,42 +352,40 @@ h6,
 }
 
 @media (max-width: 700px) {
-  .box{
-    display:block;
-    margin top: 10px;
-    margin bottom: 10px;
-    width: 100%;
-    height: auto;
-    background-color: transparent;
-  }
-
-  .mrgn {
-    margin-left: 0px;
-  }
-
-  .box:after{
-    content:"";
-    display: block;
-    width: 100%;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid rgb(187, 183, 183);
-  }
-
-  .box img{
-    padding-bottom: 20px;
-    float:left;
-    width: 2em;
-    height: 3em;
-  }
-
-  .box h2{
-    padding-top: 5px;
-    float: left;
-    font-size: 12px;
-    color: gray;
-  }
+    .box {
+        display: block;
+        margin top: 10px;
+        margin bottom: 10px;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+    }
+    .mrgn {
+        margin-left: 0px;
+    }
+    .box:after {
+        content: "";
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid rgb(187, 183, 183);
+    }
+    .box img {
+        padding-bottom: 20px;
+        float: left;
+        width: 2em;
+        height: 3em;
+    }
+    .box h2 {
+        padding-top: 5px;
+        float: left;
+        font-size: 12px;
+        color: gray;
+    }
 }
+
+
 /* /ANGGITA */
 
 
