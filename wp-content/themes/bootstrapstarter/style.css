@@ -222,4 +222,93 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 /* MEL */
 
+.mycolom{
+  background: #f0f0f0;
+  padding-bottom: 5%;
+  padding-top:2%;
+}
+
+ul.list{
+  list-style: none;
+  margin-left: -40px;
+}
+
+ul.list1{
+  list-style: none;
+  padding-top:44px;
+  margin-left: -40px;
+}
+
+.colom{
+  padding-left: 120px;
+}
+
+.palavra-destaque:after{
+ content:"";
+ display: block;
+ width: 10%;
+ margin-bottom:10px;
+ border-bottom:3px solid #1BB5D9;
+}
+
+.gmbarvideo{
+  display: inline;
+} 
+
+.video-title{
+  font-size: 14px;
+  display: inline-block;
+  width:180px;
+}
+
+li:hover .video-title{
+  color:#1BB5D9;
+}
+
+.description{
+padding-top: 10px;
+}
+
+.item a{
+  text-decoration: none;
+}
+
+.word-accent:after{
+    content:"";
+    display: block;
+    width: 10%;
+    margin-bottom:10px;
+    border-bottom:3px solid #1BB5D9;
+}
+
+.link-more{
+  color:black;
+  font-size:14px;
+}
+
+.link-more:hover{
+  color:#1BB5D9;
+}
+
+.gmbar{
+  float: left; 
+  margin: 8px 8px 3px 0px; 
+}
+
+h1.title{
+  padding-top:25px;
+}
+
+.subtitle{
+  font-size : 16px;
+  margin-top: 20px;
+}
+
+.texto{
+  margin-top: 10px;
+  margin-left: 50px;
+  display: inline-block;
+  width: 280px;
+  font-size:18px;
+}
 /* /MEL */
