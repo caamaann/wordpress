@@ -173,11 +173,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .tittle{
-    padding-left: 150px;
+    padding-left: 100px;
 }
 
 .mrgn {
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .box{
@@ -186,6 +186,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-right: 25px;
   margin-bottom: 20px;
   width: 100px;
+  background-color: #e5e5e5;
 }
 .servicos:after{
   content:"";
@@ -203,13 +204,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     max-width: 1000px;
 }
 
-.box{
-  background-color: rgb(192, 184, 184);
-}
-
 .box img{
     width: 3em;
     height: auto;
+    /* padding: 10px; */
 }
 
 .named{
@@ -217,6 +215,44 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   padding-right: 10px; 
   font-size: 10px;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  .box{
+    display:block;
+    margin top: 10px;
+    margin bottom: 10px;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+  }
+
+  .mrgn {
+    margin-left: 0px;
+  }
+
+  .box:after{
+    content:"";
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(187, 183, 183);
+  }
+
+  .box img{
+    padding-bottom: 20px;
+    float:left;
+    width: 2em;
+    height: 3em;
+  }
+
+  .box h2{
+    padding-top: 5px;
+    float: left;
+    font-size: 12px;
+    color: gray;
+  }
 }
 /* /ANGGITA */
 
