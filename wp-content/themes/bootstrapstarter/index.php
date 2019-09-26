@@ -1,9 +1,58 @@
 <?php get_header(); ?>
 
 <!-- ZIKRI -->
-<div>
-    zikri
-</div>
+  <div class="bagianZikri">
+    <div>
+      <!-- Block level -->
+      <div class="row">
+        <div class="col-2 text-truncate">
+          <h3 class="font-weight-bold">O QUE EU</h3>
+        </div>
+      </div>
+      <!-- Inline level -->
+      <span class="d-inline-block text-truncate">
+        <h1 class="display-4 text-muted">PRECISO ?</h1>
+      </span>
+    </div>
+    <div class="grid-rio-container container-fluid" style="background-color:white;">
+      <div class="grid-rio-list-container align-items-center mx-auto" style="background-color:white; height:300px; width:1000px;">
+        <ul class="list-inline ">
+          <div class="d-flex align-items-center mt-auto p-3">
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          </div>
+          <!-- <div class="w-100"></div> for break-->
+          <div class="d-flex align-items-center mt-auto p-3">
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          </div>
+          <!-- <div class="w-100"></div> for break--> 
+          <div class="d-flex align-items-center mt-auto p-3">
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
+          </div>        
+        </ul>
+      </div>
+    </div>
+  </div>
 <!-- /ZIKRI -->
 
 
