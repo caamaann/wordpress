@@ -2,9 +2,114 @@
 
 <!-- ZIKRI -->
 <div>
-    zikri
+    <div class="service container-fluid">
+    <div class="servicos tittle">
+        <p><b>O QUE EU</b><br>PRECISO?</p>
+    </div>
+    <img class="img-fluid tittle" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
+    
+    <div>
+        <div class="box mrgn text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Centro de Operacoes</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Onde Ser Atendido</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Vigilancia Sanitaria</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Transparencia SISREG</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Matricula On-line</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Calendario Escolar</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Licitacoes de Imovies</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Agenda Cultural Cultural</b></h2>
+        </div>
+        <div class="box mrgn text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Transparencia Rio</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Rio Transparente</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>IPTU Transparencia</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box mrgn text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Controle de Roedores</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+    </div>
+</div>
 </div>
 <!-- /ZIKRI -->
+
 
 
 

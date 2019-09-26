@@ -8,21 +8,34 @@ Version: 1.0
 Text Domain: bootstrapstarter
 */
 
+
 /*
  * Globals
  */
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  color: #333;
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #333;
 }
+
 
 /*
   YANG ATAS JANGAN DIEDIT DULU YA
@@ -33,133 +46,172 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   CEK DULU APAKAH UDAH ADA ATAU BELUM
   */
 
+
 /* FARHAN */
 
-.foot1{
-  background-color: #E7E7E7;
-  padding:3% 0px;
-  font-weight: bold;
+.foot1 {
+    background-color: #E7E7E7;
+    padding: 3% 0px;
+    font-weight: bold;
 }
 
-.foot1 > div > div > div::before{
-  content: "/";
-}
-.foot1 > div > div > div::after{
-  content: "/";
-}
-.foot1 > div > div > div{
-  content: "/";
-  text-align: center;
-}
-.foot2{
-  background-color: #1BB5D9;
-  border-bottom: 3px solid #fff;
-  color: white;
-}
-.foot2 > div > div > div > img{
-  margin: 0px auto;
-  width: 100px;
-  margin-top: 2.5rem;
-  margin-bottom:1.5rem;
+.foot1>div>div>div::before {
+    content: "/";
 }
 .foot2 > div > div > div{
   text-align: center;
-  
+
+}
+
+#back-to-top {
+  display:none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #6195FF;
+  border-radius:3px;
+  color: #FFF;
+  z-index: 9999;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+  cursor: pointer;
+}
+
+#back-to-top:after {
+  content: "\f106";
+  font-family: 'FontAwesome';
+}
+
+#back-to-top:hover {
+  opacity: 0.8;
+}
+
+.foot1>div>div>div::after {
+    content: "/";
+}
+
+.foot1>div>div>div {
+    content: "/";
+    text-align: center;
+}
+
+.foot2 {
+    background-color: #1BB5D9;
+    border-bottom: 3px solid #fff;
+    color: white;
+}
+
+.foot2>div>div>div>img {
+    margin: 0px auto;
+    width: 100px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.foot2>div>div>div {
+    text-align: center;
 }
 
 
-
-
-
-
-
-
-
+/* FARHAN */
 
 
 /* /FARHAN */
 
+
 /* ZIKRI */
+
 
 /* /ZIKRI */
 
+
 /* TIARA */
+
 
 /* /TIARA */
 
+
 /* SALMAN */
+
 .containerSalman {
-  background: #f0f0f0;
-  padding-bottom: 5%;
-  padding-top:2%;
+    background: #f0f0f0;
+    padding-bottom: 5%;
+    padding-top: 2%;
 }
 
 .headerFale h4 {
-  display: inline-block;
-  padding-bottom: 5px;
-  position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
 }
 
 .headerFale h4:before {
-  content: "";
-  position: absolute;
-  width: 60px;
-  bottom: 0;
-  border-bottom: 3px solid darkturquoise;
+    content: "";
+    position: absolute;
+    width: 60px;
+    bottom: 0;
+    border-bottom: 3px solid darkturquoise;
 }
 
-
-
 .headerFale {
-  padding: 10px;
+    padding: 10px;
 }
 
 .Fale {
-  font-weight: bold;
-  font-size: 2.25rem;
+    font-weight: bold;
+    font-size: 2.25rem;
 }
 
 .contentFale {
-  padding: 10px;
-  padding-bottom: 30px;
+    padding: 10px;
+    padding-bottom: 30px;
 }
 
 .secContent {
-  text-transform: uppercase;
-  font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .textFale {
-  color: gray;
+    color: gray;
 }
 
 .textGambar {
-  font-size: 2.5rem;
-  color: gray;
+    font-size: 2.5rem;
+    color: gray;
 }
 
 .textGambar img {
-  max-width: 30px;
+    max-width: 30px;
 }
 
 .textGambar2 {
-  font-size: 3rem;
-  color: gray;
+    font-size: 3rem;
+    color: gray;
 }
 
 .textGambar2:hover {
   color: darkturquoise;
+  cursor: pointer;
 }
 
 .textGambar2 img {
-  max-width: 30px;
+    max-width: 30px;
 }
+
 
 /* /SALMAN */
 
+
 /* AFIF M */
 
+
 /* /AFIF M */
+
 
 /* ANGGITA */
 .service{
@@ -167,9 +219,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 20px;
 }
 
-.servicos{
-  padding-top: 20px;
-  font-size: 2em;
+.service {
+    background-image: url("img/bg-servicos.png");
+    margin-top: 20px;
 }
 
 .tittle{
@@ -188,15 +240,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   width: 100px;
   background-color: #e5e5e5;
 }
-.servicos:after{
-  content:"";
-  display: block;
-  width: 5%;
-  margin-bottom: 10px;
-  border-bottom: 2px solid blue;
+
+.servicos:after {
+    content: "";
+    display: block;
+    width: 5%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid blue;
 }
 
-.imgs{
+.imgs {
     display: block;
     margin-top: 20px;
     margin-left: auto;
@@ -210,11 +263,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     /* padding: 10px; */
 }
 
-.named{
-  padding-left: 10px;
-  padding-right: 10px; 
-  font-size: 10px;
-  text-align: center;
+.named {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    text-align: center;
 }
 
 @media (max-width: 700px) {
@@ -256,6 +309,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 /* /ANGGITA */
 
+
 /* MEL */
+
 
 /* /MEL */
