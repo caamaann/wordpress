@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <!-- ZIKRI -->
+<<<<<<< Updated upstream
   <div class="bagianZikri">
     <div>
       <!-- Block level -->
@@ -13,6 +14,112 @@
       <span class="d-inline-block text-truncate">
         <h1 class="display-4 text-muted">PRECISO ?</h1>
       </span>
+=======
+<div>
+    <div class="container-fluid container-grid-zikri">
+    <div class="grid-title-zikri">
+        <p><b>O QUE EU</b><br><h1>PRECISO?</h1></p>
+    </div>
+    <img class="img-fluid arrow-image" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
+    
+    <div>
+        <div class="box text-center" style="margin-left: 150px;">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (1).png">
+            <h2 class="named"><b>Centro de Operacoes</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (2).png">
+            <h2 class="named"><b>Onde Ser Atendido</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (3).png">
+            <h2 class="named"><b>Vigilancia Sanitaria</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (4).png">
+            <h2 class="named"><b>Transparencia SISREG</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (5).png">
+            <h2 class="named"><b>Matricula On-line</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (6).png">
+            <h2 class="named"><b>Calendario Escolar</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (7).png">
+            <h2 class="named"><b>Licitacoes de Imovies</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (8).png">
+            <h2 class="named"><b>Agenda Cultural</b></h2>
+        </div>
+        <div class="box text-center" style="margin-left: 150px;">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (9).png">
+            <h2 class="named"><b>Transparencia Rio</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (10).png">
+            <h2 class="named"><b>Rio Transparente</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (11).png">
+            <h2 class="named"><b>IPTU Transparencia</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (12).png">
+            <h2 class="named"><b>Alvara</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (13).png">
+            <h2 class="named"><b>ITBI</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (14).png">
+            <h2 class="named"><b>Certidao Fiscal</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (15).png">
+            <h2 class="named"><b>Divida Ativa</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (16).png">
+            <h2 class="named"><b>Concursos</b></h2>
+        </div>
+        <div class="box text-center" style="margin-left: 150px;">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (17).png">
+            <h2 class="named"><b>Veiculos Rebocados</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (18).png">
+            <h2 class="named"><b>Infracoes de Transito</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (19).png">
+            <h2 class="named"><b>Servicos para Taxitas</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (20).png">
+            <h2 class="named"><b>Ordem Publica</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (21).png">
+            <h2 class="named"><b>Dados da Cidade</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (22).png">
+            <h2 class="named"><b>Consulta a Processos</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (23).png">
+            <h2 class="named"><b>Consulta a Legislacao</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/image_gallery (24).png">
+            <h2 class="named"><b>Outros Servicos</b></h2>
+        </div>
+>>>>>>> Stashed changes
     </div>
     <div class="grid-rio-container container-fluid" style="background-color:white;">
       <div class="grid-rio-list-container align-items-center mx-auto" style="background-color:white; height:300px; width:1000px;">

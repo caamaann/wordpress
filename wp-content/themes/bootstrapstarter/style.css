@@ -94,6 +94,41 @@ h6,
 
 /* ZIKRI */
 
+.container-grid-zikri {
+    background-image: url("img/bg-grid-container.png");
+    margin-top: 20px;
+}
+
+.grid-title-zikri {
+    padding-top: 20px;
+    font-size: 2em;
+    padding-left: 150px;
+}
+
+.arrow-image {
+    padding-left: 150px;
+}
+
+.box:hover {
+    border-color: #1BB5D9;
+}
+
+
+/* .box-zikri {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    width: 100px;
+    background-color: rgb(192, 184, 184);
+    border-style: groove;
+} */
+
+
+/* .tittle {
+    padding-left: 150px;
+} */
+
 
 /* /ZIKRI */
 
@@ -183,6 +218,68 @@ h6,
 
 /* ANGGITA */
 
+<<<<<<< Updated upstream
+=======
+.service {
+    background-image: url("img/bg-servicos.png");
+    margin-top: 20px;
+}
+
+.servicos {
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+.tittle {
+    padding-left: 150px;
+}
+
+.mrgn {
+    margin-left: 150px;
+}
+
+.box {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    width: 100px;
+    border: solid 3px transparent;
+}
+
+.servicos:after {
+    content: "";
+    display: block;
+    width: 5%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid blue;
+}
+
+.imgs {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.box {
+    background-color: rgb(192, 184, 184);
+}
+
+.box img {
+    width: 3em;
+    height: auto;
+}
+
+.named {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+>>>>>>> Stashed changes
 
 /* /ANGGITA */
 
