@@ -1,59 +1,115 @@
 <?php get_header(); ?>
 
 <!-- ZIKRI -->
-  <div class="bagianZikri">
+<div>
+    <div class="service container-fluid">
+    <div class="servicos tittle">
+        <p><b>O QUE EU</b><br>PRECISO?</p>
+    </div>
+    <img class="img-fluid tittle" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
+    
     <div>
-      <!-- Block level -->
-      <div class="row">
-        <div class="col-2 text-truncate">
-          <h3 class="font-weight-bold">O QUE EU</h3>
+        <div class="box mrgn text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Centro de Operacoes</b></h2>
         </div>
-      </div>
-      <!-- Inline level -->
-      <span class="d-inline-block text-truncate">
-        <h1 class="display-4 text-muted">PRECISO ?</h1>
-      </span>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Onde Ser Atendido</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Vigilancia Sanitaria</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Transparencia SISREG</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Matricula On-line</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Calendario Escolar</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Licitacoes de Imovies</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Agenda Cultural Cultural</b></h2>
+        </div>
+        <div class="box mrgn text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Transparencia Rio</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Rio Transparente</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>IPTU Transparencia</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box mrgn text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Controle de Roedores</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
+        <div class="box text-center">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/">
+            <h2 class="named"><b>Estacionamento Irregular</b></h2>
+        </div>
     </div>
-    <div class="grid-rio-container container-fluid" style="background-color:white;">
-      <div class="grid-rio-list-container align-items-center mx-auto" style="background-color:white; height:300px; width:1000px;">
-        <ul class="list-inline ">
-          <div class="d-flex align-items-center mt-auto p-3">
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          </div>
-          <!-- <div class="w-100"></div> for break-->
-          <div class="d-flex align-items-center mt-auto p-3">
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          </div>
-          <!-- <div class="w-100"></div> for break--> 
-          <div class="d-flex align-items-center mt-auto p-3">
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          <li class="col border mh-100 list-inline-item" style="width: 90px; height: 70px; background-color:lightsteelblue;"></li>
-          </div>        
-        </ul>
-      </div>
-    </div>
-  </div>
+</div>
+</div>
 <!-- /ZIKRI -->
+
 
 
 
