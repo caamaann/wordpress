@@ -20,7 +20,6 @@
     - panggil script dibawah ini, harus sama ya. nama filenya doang yg beda
     <img src="<?php echo get_bloginfo('template_url') ?>/img/171524024.jpg"> 
 -->
-            <a class="blog-nav-item" href="#">About</a>
 
 <header>
     <div class="container-fluid bg-one">
