@@ -342,13 +342,15 @@ ul.list1{
 }
 
 .gmbarvideo{
-  display: inline;
+  
 } 
 
 .video-title{
   font-size: 14px;
   display: inline-block;
   width:180px;
+  margin-left: 3px;
+
 }
 
 li:hover .video-title{

@@ -179,24 +179,24 @@
 <div class="col-sm-6 colom">
  <header class="header-secao"> 
     <h1 class="titulo">
-      <span class="palavra-destaque"><b>Diário</b> <br> Oficial<span>
+      <span class="palavra-destaque"><b>DIÁRIO</b> <br><small> OFICIAL</small><span>
         </h1> 
  </header>
  <a href="#">
   <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel1.jpg"> </a> 
-  <div class="texto"> <p>Tenha acesso a todo o conteúdo do Diário Oficial Eletrônico do Município do Rio de Janeiro e suas edições anteriores.</p><br><button type="button" class="btn btn-info"> D.O. Online</button></div>
+  <div class="texto"> <p>Tenha acesso a todo o conteúdo do Diário Oficial Eletrônico do Município do Rio de Janeiro e suas edições anteriores.</p><br><button type="button" class="btn btn-info"> D.O. ONLINE</button></div>
   </div>
 <div class="col-sm-6 colom">
 
 <header class="header-secao"> 
-    <h1 class="titulo"> <span class="palavra-destaque"><b>Portal</b> <br> do Servidor</span>
+    <h1 class="titulo"> <span class="palavra-destaque"><b>PORTAL</b> <br><small> DO SERVIDOR</small></span>
     </h1> 
 </header>
  <a href="#">
   <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel2.jpg">  </a> 
 <div class="texto"> 
     <p>Acesse o Portal do Servidor e fique por dentro de tudo o que a Prefeitura está realizando.</p><br>
-    <button type="button" class="btn btn-info"> Portal do Servidor</button> 
+    <button type="button" class="btn btn-info"> PORTAL DO SERVIDOR</button> 
 </div> 
 </div>  
 </div> 
@@ -204,7 +204,7 @@
 
 <div class="container">
 <header class="header-section"> 
-    <h1 class="title"> <small>Vídeos</small> <br> <span class="word-accent">Prefeitura </span> 
+    <h1 class="title"> <small>VÍDEOS</small> <br> <span class="word-accent">PREFEITURA </span> 
     </h1> 
   </header> 
   <p class="description"> Assista aos vídeos da Prefeitura do Rio de Janeiro. Você sempre pode acompanhar nossas novidades por aqui.
