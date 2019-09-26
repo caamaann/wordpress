@@ -11,517 +11,504 @@ Text Domain: bootstrapstarter
  * Globals
  */
         
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #555;
-        }
-        
-        h1,
-        .h1,
-        h2,
-        .h2,
-        h3,
-        .h3,
-        h4,
-        .h4,
-        h5,
-        .h5,
-        h6,
-        .h6 {
-            margin-top: 0;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-weight: normal;
-        }
-        /*
-  YANG ATAS JANGAN DIEDIT DULU YA
-  KALIAN KALAU MAU NAMBAH CLASS DIBAWAH INI
-  SESUAI DENGAN NAMA
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555;
+}
 
-  JANGAN LUPA KALAU MAU BIKIN CLASS/APAPUN
-  CEK DULU APAKAH UDAH ADA ATAU BELUM
-  */
-        /* FARHAN */
-        
-        .foot1 {
-            background-color: #E7E7E7;
-            padding: 3% 0px;
-            font-weight: bold;
-        }
-        
-        .foot1>div>div>div::before {
-            content: "/";
-        }
-        
-        .foot2>div>div>div {
-            text-align: center;
-        }
-        
-        #back-to-top {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 50px;
-            height: 50px;
-            line-height: 50px;
-            text-align: center;
-            background: #6195FF;
-            border-radius: 3px;
-            color: #FFF;
-            z-index: 9999;
-            -webkit-transition: 0.2s opacity;
-            transition: 0.2s opacity;
-            cursor: pointer;
-            text-align: center;
-        }
-        
-        #back-to-top:after {
-            content: "\f106";
-            font-family: 'FontAwesome';
-        }
-        
-        #back-to-top:hover {
-            opacity: 0.8;
-        }
-        
-        .foot1>div>div>div::after {
-            content: "/";
-        }
-        
-        .foot1>div>div>div {
-            content: "/";
-            text-align: center;
-        }
-        
-        .foot2 {
-            background-color: #1BB5D9;
-            border-bottom: 3px solid #fff;
-            color: white;
-        }
-        
-        .foot2>div>div>div>img {
-            margin: 0px auto;
-            width: 100px;
-            margin-top: 2.5rem;
-            margin-bottom: 1.5rem;
-        }
-        
-        .foot2>div>div>div {
-            text-align: center;
-        }
-        /* FARHAN */
-        /* /FARHAN */
-        /* ZIKRI */
-        
-        .container-grid-zikri {
-            background-image: url("img/bg-grid-container.png");
-        }
-        
-        .container-grid-zikri>.container {
-            padding-top: 20px;
-        }
-        
-        .grid-title-zikri {
-            font-size: 1.7em;
-            position: relative;
-            color: #808080;
-        }
-        
-        .grid-title-zikri>h1 {
-            color: #808080;
-        }
-        
-        .arrow-image {
-            margin-left: 10px;
-        }
-        
-        .zikri-rio {
-            position: absolute;
-            opacity: .2;
-            right: 0;
-            top: -22px;
-            width: 47%;
-        }
-        
-        .box:hover {
-            border-color: #1BB5D9;
-        }
-        
-        .flex-zikri-gita {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-        
-        .box {
-            display: flex;
-            margin: 7px 0px;
-            width: 11.2%;
-            background-color: #e5e5e5;
-            justify-content: center;
-            box-sizing: border-box;
-            align-items: center;
-        }
-        
-        .box>a {
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            flex-basis: 100%;
-            color: #808080;
-        }
-        
-        .box>a:hover {
-            text-decoration: none;
-            color: black;
-            cursor: pointer;
-        }
-        
-        @media screen and (min-width: 701px) {
-            .box:hover {
-                border: 1px solid #1BB5D9;
-            }
-        }
-        
-        .box>a>img {
-            width: 40px;
-        }
-        /* .box-zikri {
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 25px;
-    margin-bottom: 20px;
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+/*
+YANG ATAS JANGAN DIEDIT DULU YA
+KALIAN KALAU MAU NAMBAH CLASS DIBAWAH INI
+SESUAI DENGAN NAMA
+
+JANGAN LUPA KALAU MAU BIKIN CLASS/APAPUN
+CEK DULU APAKAH UDAH ADA ATAU BELUM
+*/
+/* FARHAN */
+
+.foot1 {
+    background-color: #E7E7E7;
+    padding: 3% 0px;
+    font-weight: bold;
+}
+
+.foot1>div>div>div::before {
+    content: "/";
+}
+
+.foot2>div>div>div {
+    text-align: center;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #6195FF;
+    border-radius: 3px;
+    color: #FFF;
+    z-index: 9999;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    cursor: pointer;
+    text-align: center;
+}
+
+#back-to-top:after {
+    content: "\f106";
+    font-family: 'FontAwesome';
+}
+
+#back-to-top:hover {
+    opacity: 0.8;
+}
+
+.foot1>div>div>div::after {
+    content: "/";
+}
+
+.foot1>div>div>div {
+    content: "/";
+    text-align: center;
+}
+
+.foot2 {
+    background-color: #1BB5D9;
+    border-bottom: 3px solid #fff;
+    color: white;
+}
+
+.foot2>div>div>div>img {
+    margin: 0px auto;
     width: 100px;
-    background-color: rgb(192, 184, 184);
-    border-style: groove;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.foot2>div>div>div {
+    text-align: center;
+}
+/* FARHAN */
+/* /FARHAN */
+/* ZIKRI */
+
+.container-grid-zikri {
+    background-image: url("img/bg-grid-container.png");
+}
+
+.container-grid-zikri>.container {
+    padding-top: 20px;
+}
+
+.grid-title-zikri {
+    font-size: 1.7em;
+    position: relative;
+    color: #808080;
+}
+
+.grid-title-zikri>h1 {
+    color: #808080;
+}
+
+.arrow-image {
+    margin-left: 10px;
+}
+
+.zikri-rio {
+    position: absolute;
+    opacity: .2;
+    right: 0;
+    top: -22px;
+    width: 47%;
+}
+
+.box:hover {
+    border-color: #1BB5D9;
+}
+
+.flex-zikri-gita {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    margin: 7px 0px;
+    width: 11.2%;
+    background-color: #e5e5e5;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.box > a {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+    color: #808080;
+}
+
+.box>a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 701px) {
+    .box:hover {
+        border: 1px solid #1BB5D9;
+    }
+}
+
+.box>a>img {
+    width: 40px;
+}
+/* .box-zikri {
+display: inline-block;
+margin-top: 20px;
+margin-right: 25px;
+margin-bottom: 20px;
+width: 100px;
+background-color: rgb(192, 184, 184);
+border-style: groove;
 } */
-        /* .tittle {
-    padding-left: 150px;
+/* .tittle {
+padding-left: 150px;
 } */
-        /* /ZIKRI */
-        /* TIARA */
-        /* /TIARA */
-        /* SALMAN */
-        
-        .containerSalman {
-            background: #f0f0f0;
-            padding-bottom: 5%;
-            padding-top: 2%;
-        }
-        
-        .headerFale h4 {
-            display: inline-block;
-            padding-bottom: 5px;
-            position: relative;
-        }
-        
-        .headerFale h4:before {
-            content: "";
-            position: absolute;
-            width: 60px;
-            bottom: 0;
-            border-bottom: 3px solid darkturquoise;
-        }
-        
-        .headerFale {
-            padding: 10px;
-        }
-        
-        .Fale {
-            font-weight: bold;
-            font-size: 2.75rem;
-        }
-        
-        .contentFale {
-            padding: 10px;
-            padding-bottom: 30px;
-        }
-        
-        .secContent {
-            text-transform: uppercase;
-            font-weight: bold;
-        }
-        
-        .textFale {
-            color: gray;
-        }
-        
-        .textGambar {
-            font-size: 2.5rem;
-            color: gray;
-        }
-        
-        .textGambar img {
-            max-width: 30px;
-        }
-        
-        .textGambar2 {
-            font-size: 3rem;
-            color: gray;
-        }
-        
-        .textGambar2:hover {
-            color: darkturquoise;
-            cursor: pointer;
-        }
-        
-        .textGambar2 img {
-            max-width: 30px;
-        }
-        /* /SALMAN */
-        /* AFIF M */
-        
-        .afif h4 {
-            font-size: 2rem;
-            font-weight: bold;
-        }
-        
-        .rio {
-            padding-top: 8%;
-        }
-        
-        .tombol img {
-            max-width: 183px;
-        }
-        /* The Image container */
-        /* .zooming { */
-        /* height: 532px; */
-        /* Modify this according to your need */
-        /* overflow: hidden; */
-        /* Removing this will break the effects */
-        /* } */
-        /* Slow-motion Zoom Container */
-        /* .zooming img {
-    max-width: 100%;
-    transform-origin: 50% 65%;
-    transition: transform 5s, filter 3s ease-in-out;
-    filter: brightness(150%);
+/* /ZIKRI */
+
+/* TIARA */
+/* /TIARA */
+
+
+/* SALMAN */
+
+.containerSalman {
+    background: #f0f0f0;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.headerFale h4 {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.headerFale h4:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    bottom: 0;
+    border-bottom: 3px solid darkturquoise;
+}
+
+.headerFale {
+    padding: 10px;
+}
+
+.Fale {
+    font-weight: bold;
+    font-size: 2.75rem;
+}
+
+.contentFale {
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.secContent {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.textFale {
+    color: gray;
+}
+
+.textGambar {
+    font-size: 2.5rem;
+    color: gray;
+}
+
+.textGambar img {
+    max-width: 30px;
+}
+
+.textGambar2 {
+    font-size: 3rem;
+    color: gray;
+}
+
+.textGambar2:hover {
+    color: darkturquoise;
+    cursor: pointer;
+}
+
+.textGambar2 img {
+    max-width: 30px;
+}
+/* /SALMAN */
+
+/* AFIF M */
+
+.afif h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.rio {
+    padding-top: 8%;
+}
+
+.tombol img {
+    max-width: 183px;
+}
+/* The Image container */
+/* .zooming { */
+/* height: 532px; */
+/* Modify this according to your need */
+/* overflow: hidden; */
+/* Removing this will break the effects */
+/* } */
+/* Slow-motion Zoom Container */
+/* .zooming img {
+max-width: 100%;
+transform-origin: 50% 65%;
+transition: transform 5s, filter 3s ease-in-out;
+filter: brightness(150%);
 } */
-        /* The Transformation */
-        /* .zooming:hover img {
-    filter: brightness(100%);
-    transform: scale(3);
+/* The Transformation */
+/* .zooming:hover img {
+filter: brightness(100%);
+transform: scale(3);
 } */
-        
-        .tombol img {
-            border: none;
-            text-align: center;
-            font-size: 16px;
-            margin: 4px 2px;
-            opacity: 0.6;
-            transition: 0.3s;
-        }
-        
-        .tombol img:hover {
-            opacity: 1
-        }
-        
-        .efek img {
-            border: none;
-            text-align: center;
-            font-size: 16px;
-            margin: 4px 2px;
-            opacity: 0.6;
-            transition: 0.3s;
-        }
-        
-        .efek img:hover {
-            opacity: 1
-        }
-        /* /AFIF M */
-        /* ANGGITA */
-        
-        .service {
-            background-image: url("img/bg-servicos.png");
-            margin-top: 20px;
-        }
-        
-        .tittle {
-            padding-left: 100px;
-        }
-        
-        .box {
-            display: inline-block;
-            margin-top: 20px;
-            margin-right: 25px;
-            margin-bottom: 20px;
-            width: 100px;
-            background-color: #e5e5e5;
-        }
-        
-        .servicos {
-            padding-top: 20px;
-            font-size: 2em;
-            color: #808080;
-        }
-        
-        .mrgn {
-            margin-left: 150px;
-        }
-        
-        .servicos:after {
-            content: "";
-            display: block;
-            width: 5%;
-            margin-bottom: 10px;
-            border-bottom: 2px solid blue;
-        }
-        
-        .imgs {
-            display: block;
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 1000px;
-        }
-        
-        .box img {
-            width: 3em;
-            height: auto;
-            /* padding: 10px; */
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 100% !important;
-        }
-        
-        .named {
-            padding-left: 10px;
-            padding-right: 10px;
-            font-size: 10px;
-            text-align: center;
-        }
-        /* /ANGGITA */
-        
-        @media screen and (max-width: 700px) {
-            .box {
-                display: block;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 100%;
-                height: auto;
-                background-color: transparent;
-            }
-            .mrgn {
-                margin-left: 0px;
-            }
-            .box:after {
-                content: "";
-                display: block;
-                width: 100%;
-                padding-bottom: 30px;
-                margin-bottom: 20px;
-                border-bottom: 2px solid rgb(187, 183, 183);
-            }
-            .box>a>img {
-                float: left;
-                width: 2em;
-            }
-            .box h2 {
-                padding-top: 5px;
-                float: left;
-                font-size: 12px;
-            }
-            .box>a:hover {
-                text-decoration: none;
-                color: #1BB5D9;
-                cursor: pointer;
-            }
-            .zikri-rio {
-                display: none;
-            }
-        }
-        /* /ANGGITA */
-        /* MEL */
-        
-        .mycolom {
-            background: #f0f0f0;
-            padding-bottom: 5%;
-            padding-top: 2%;
-        }
-        
-        ul.list {
-            list-style: none;
-            margin-left: -40px;
-        }
-        
-        ul.list1 {
-            list-style: none;
-            padding-top: 44px;
-            margin-left: -40px;
-        }
-        
-        .colom {
-            padding-left: 120px;
-        }
-        
-        .palavra-destaque:after {
-            content: "";
-            display: block;
-            width: 10%;
-            margin-bottom: 10px;
-            border-bottom: 3px solid #1BB5D9;
-        }
-        
-        .gmbarvideo {
-            display: inline;
-        }
-        
-        .video-title {
-            font-size: 14px;
-            display: inline-block;
-            width: 180px;
-        }
-        
-        li:hover .video-title {
-            color: #1BB5D9;
-        }
-        
-        .description {
-            padding-top: 10px;
-        }
-        
-        .item a {
-            text-decoration: none;
-        }
-        
-        .word-accent:after {
-            content: "";
-            display: block;
-            width: 10%;
-            margin-bottom: 10px;
-            border-bottom: 3px solid #1BB5D9;
-        }
-        
-        .link-more {
-            color: black;
-            font-size: 14px;
-        }
-        
-        .link-more:hover {
-            color: #1BB5D9;
-        }
-        
-        .gmbar {
-            float: left;
-            margin: 8px 8px 3px 0px;
-        }
-        
-        h1.title {
-            padding-top: 25px;
-        }
-        
-        .subtitle {
-            font-size: 16px;
-            margin-top: 20px;
-        }
-        
-        .texto {
-            margin-top: 10px;
-            margin-left: 50px;
-            display: inline-block;
-            width: 280px;
-            font-size: 18px;
-        }
-        /* /MEL */
+
+.tombol img {
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.tombol img:hover {
+    opacity: 1
+}
+
+.efek img {
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.efek img:hover {
+    opacity: 1
+}
+/* /AFIF M */
+
+
+/* ANGGITA */
+
+.service {
+    background-image: url("img/bg-servicos.png");
+    margin-top: 20px;
+}
+
+.tittle {
+    padding-left: 100px;
+}
+
+.servicos {
+    padding-top: 20px;
+    font-size: 2em;
+    color: #808080;
+}
+
+.mrgn {
+    margin-left: 150px;
+}
+
+.servicos:after {
+    content: "";
+    display: block;
+    width: 5%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid blue;
+}
+
+.imgs {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100% !important;
+}
+
+.named {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+/* /ANGGITA */
+
+@media screen and (max-width: 700px) {
+    .box {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+    }
+    .mrgn {
+        margin-left: 0px;
+    }
+    .box:after {
+        content: "";
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid rgb(187, 183, 183);
+    }
+    .box > a > img {
+        float: left;
+        width: 2em;
+    }
+    .box h2 {
+        padding-top: 5px;
+        float: left;
+        font-size: 12px;
+    }
+    .box>a:hover {
+        text-decoration: none;
+        color: #1BB5D9;
+        cursor: pointer;
+    }
+    .zikri-rio {
+        display: none;
+    }
+}
+/* /ANGGITA */
+/* MEL */
+
+.mycolom {
+    background: #f0f0f0;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+ul.list {
+    list-style: none;
+    margin-left: -40px;
+}
+
+ul.list1 {
+    list-style: none;
+    padding-top: 44px;
+    margin-left: -40px;
+}
+
+.colom {
+    padding-left: 120px;
+}
+
+.palavra-destaque:after {
+    content: "";
+    display: block;
+    width: 10%;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #1BB5D9;
+}
+
+.gmbarvideo {
+    display: inline;
+}
+
+.video-title {
+    font-size: 14px;
+    display: inline-block;
+    width: 180px;
+}
+
+li:hover .video-title {
+    color: #1BB5D9;
+}
+
+.description {
+    padding-top: 10px;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+.word-accent:after {
+    content: "";
+    display: block;
+    width: 10%;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #1BB5D9;
+}
+
+.link-more {
+    color: black;
+    font-size: 14px;
+}
+
+.link-more:hover {
+    color: #1BB5D9;
+}
+
+.gmbar {
+    float: left;
+    margin: 8px 8px 3px 0px;
+}
+
+h1.title {
+    padding-top: 25px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.texto {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    width: 280px;
+    font-size: 18px;
+}
+/* /MEL */
