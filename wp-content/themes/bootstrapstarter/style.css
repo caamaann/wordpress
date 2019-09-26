@@ -235,17 +235,17 @@ header{
 .plus{ margin-left: 5px; }
 
 #img1 img{ 
-  width: 130px; 
+  max-width: 130px; 
   margin-right: 18px;
 }
 
 #img2 img{ 
-  width: 90px; 
+  max-width: 90px; 
   margin-right: 18px;
 }
 
 #img3 img{ 
-  width: 150px; 
+  max-width: 150px; 
   border-right: 1px solid white;
   padding-right: 18px;
 }
@@ -336,6 +336,23 @@ header{
   border: none;
   color: gray;
   width: 130px;
+}
+
+.logo-dropdown{
+  float: right;
+  max-width: 50px;
+  display: none;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1300px){
+  .navbar{
+    display: none;
+  }
+
+  .logo-dropdown{
+    display: inline;
+  }
 }
 
 /* /TIARA */
