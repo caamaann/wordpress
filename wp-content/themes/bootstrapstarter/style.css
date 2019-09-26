@@ -439,6 +439,33 @@ ul.list1 {
     margin-left: -40px;
 }
 
+.list1 img{
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s
+}
+
+.open-video img{
+    opacity: 0.6;
+    transition: 0.1s
+}
+.open-video img:hover{
+    opacity: 1;
+    border:1px solid #1BB5D9;    
+}
+
+.list img{
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.1s
+}
+
 .colom {
     padding-left: 120px;
 }
@@ -453,12 +480,14 @@ ul.list1 {
 
 .gmbarvideo {
     display: inline;
+    max-width: 130px;
 }
 
 .video-title {
     font-size: 14px;
     display: inline-block;
     width: 180px;
+    color:black;
 }
 
 li:hover .video-title {

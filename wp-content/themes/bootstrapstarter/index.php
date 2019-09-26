@@ -289,7 +289,7 @@
             <div class="col-sm-6 colom">
                 <header class="header-secao">
                     <h1 class="titulo">
-                        <span class="palavra-destaque"><b>Diário</b> <br> Oficial<span>
+                        <span class="palavra-destaque"><b>DIÁRIO</b><br><small>OFICIAL</small><span>
                     </h1>
                 </header>
                 <a href="#">
@@ -298,10 +298,10 @@
                     <p>Tenha acesso a todo o conteúdo do Diário Oficial Eletrônico do Município do Rio de Janeiro e suas edições anteriores.</p><br><button type="button" class="btn btn-info"> D.O. Online</button>
                 </div>
             </div>
-            <div class="col-sm-6 colom">
+        <div class="col-sm-6 colom">
 
                 <header class="header-secao">
-                    <h1 class="titulo"> <span class="palavra-destaque"><b>Portal</b> <br> do Servidor</span>
+                    <h1 class="titulo"> <span class="palavra-destaque"><b>PORTAL</b><br><small>DO SERVIDOR</small></span>
                     </h1>
                 </header>
                 <a href="#">
@@ -316,7 +316,7 @@
 
     <div class="container">
         <header class="header-section">
-            <h1 class="title"> <small>Vídeos</small> <br> <span class="word-accent">Prefeitura </span>
+            <h1 class="title"> <small>VÍDEOS</small> <br> <span class="word-accent">PREFEITURA </span>
             </h1>
         </header>
         <p class="description"> Assista aos vídeos da Prefeitura do Rio de Janeiro. Você sempre pode acompanhar nossas novidades por aqui.
@@ -325,7 +325,7 @@
             <div class="col-sm-4">
                 <h2 class="subtitle"><b>Destaque</b></h2>
                 <a class="link open-video" href="#">
-                    <img src="<?php echo get_bloginfo('template_url') ?>/img/gmbr1.jpg">
+                    <img src="<?php echo get_bloginfo('template_url') ?>/img/gambar1.jpg">
                 </a>
             </div>
             <div class="col-sm-4">
@@ -333,7 +333,7 @@
                 <ul class="list">
                     <li class="item">
                         <a class="link open-video" href="#">
-                            <img class="video" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil1.jpg">
+                            <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil1.jpg">
                             <h3 class="video-title">Projeto Resgate Solidário acolhe pessoas em situação de rua em Copacabana</h3>
                         </a> </li>
                     <li class="item">
@@ -344,7 +344,7 @@
                     </li>
                     <li class="item">
                         <a class="link open-video" href="#">
-                            <img class="video" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil3.jpg">
+                            <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil3.jpg">
                             <h3 class="video-title">A Cidade Maravilhosa das belezas naturais é também a dos tesouros arquitetônicos</h3>
                         </a>
                     </li>
@@ -368,7 +368,7 @@
                         </a>
                     </li>
                 </ul>
-                <a class="link-more" href="#">Veja mais vídeos</a>
+                <a class="link-more" href="#"><u>Veja mais vídeos</u></a>
             </div>
         </div>
     </div>
