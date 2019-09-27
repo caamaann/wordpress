@@ -702,8 +702,12 @@ li:hover .video-title {
 }
 
 .link-more {
-    color: black;
+    color: dimgray;
     font-size: 14px;
+}
+
+.jaraklink{
+    padding-top:4%; 
 }
 
 .link-more:hover {
