@@ -285,36 +285,38 @@
 
     <!-- MEL -->
     <div class="container-fluid mycolom">
-        <div class="row">
-            <div class="col-sm-6 colom">
-                <header class="header-secao">
-                    <h1 class="titulo">
-                        <span class="palavra-destaque"><b>DIÁRIO</b><br><small>OFICIAL</small><span>
-                    </h1>
-                </header>
-                <a href="#">
-                    <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel1.jpg"> </a>
-                <div class="texto">
-                    <p>Tenha acesso a todo o conteúdo do Diário Oficial Eletrônico do Município do Rio de Janeiro e suas edições anteriores.</p><br><button type="button" class="btn btn-info"> D.O. Online</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <header class="header-secao">
+                        <h1 class="titulo">
+                            <span class="palavra-destaque"><b>DIÁRIO</b><br><small>OFICIAL</small><span>
+                        </h1>
+                    </header>
+                    <a href="#">
+                        <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel1.jpg"> </a>
+                    <div class="texto">
+                        <p>Tenha acesso a todo o conteúdo do Diário Oficial Eletrônico do Município do Rio de Janeiro e suas edições anteriores.</p><br><button type="button" class="btn btn-info"> D.O. Online</button>
+                    </div>
+                    <div class="clear"></div>
                 </div>
-            </div>
-        <div class="col-sm-6 colom">
-
-                <header class="header-secao">
-                    <h1 class="titulo"> <span class="palavra-destaque"><b>PORTAL</b><br><small>DO SERVIDOR</small></span>
-                    </h1>
-                </header>
-                <a href="#">
-                    <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel2.jpg"> </a>
-                <div class="texto">
-                    <p>Acesse o Portal do Servidor e fique por dentro de tudo o que a Prefeitura está realizando.</p><br>
-                    <button type="button" class="btn btn-info"> Portal do Servidor</button>
+                <div class="col-sm-6">
+                    <header class="header-secao">
+                        <h1 class="titulo"> <span class="palavra-destaque"><b>PORTAL</b><br><small>DO SERVIDOR</small></span>
+                        </h1>
+                    </header>
+                    <a href="#">
+                        <img class="gmbar" src="<?php echo get_bloginfo('template_url') ?>/img/artikel2.jpg"> </a>
+                    <div class="texto">
+                        <p>Acesse o Portal do Servidor e fique por dentro de tudo o que a Prefeitura está realizando.</p><br>
+                        <button type="button" class="btn btn-info"> Portal do Servidor</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mycolom2">
         <header class="header-section">
             <h1 class="title"> <small>VÍDEOS</small> <br> <span class="word-accent">PREFEITURA </span>
             </h1>
@@ -325,7 +327,7 @@
             <div class="col-sm-4">
                 <h2 class="subtitle"><b>Destaque</b></h2>
                 <a class="link open-video" href="#">
-                    <img src="<?php echo get_bloginfo('template_url') ?>/img/gambar1.jpg">
+                    <img class="img-fluid imgs destaq" src="<?php echo get_bloginfo('template_url') ?>/img/gambar1.jpg">
                 </a>
             </div>
             <div class="col-sm-4">
@@ -333,19 +335,33 @@
                 <ul class="list">
                     <li class="item">
                         <a class="link open-video" href="#">
-                            <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil1.jpg">
-                            <h3 class="video-title">Projeto Resgate Solidário acolhe pessoas em situação de rua em Copacabana</h3>
+                            <div class="meli-ultimos-kiri">
+                                <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil1.jpg">
+                            </div>
+                            <div class="meli-ultimos-kanan">
+                                <h3 class="video-title">Projeto Resgate Solidário acolhe pessoas em situação de rua em Copacabana</h3>
+                            </div>
+                            <div class="clear">
                         </a> </li>
                     <li class="item">
                         <a class="link open-video" href="#">
-                            <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil2.jpg">
-                            <h3 class="video-title">Boas histórias: autonomia mudou vida de motorista de táxi que antes pagava diária</h3>
+                            <div class="meli-ultimos-kiri">
+                                <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil2.jpg">
+                            </div>
+                            <div class="meli-ultimos-kanan">
+                                <h3 class="video-title">Boas histórias: autonomia mudou vida de motorista de táxi que antes pagava diária</h3>
+                            </div>
                         </a>
+                        <div class="clear"></div>
                     </li>
                     <li class="item">
                         <a class="link open-video" href="#">
-                            <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil3.jpg">
-                            <h3 class="video-title">A Cidade Maravilhosa das belezas naturais é também a dos tesouros arquitetônicos</h3>
+                            <div class="meli-ultimos-kiri">
+                                <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil3.jpg">
+                            </div>
+                            <div class="meli-ultimos-kanan">
+                                <h3 class="video-title">A Cidade Maravilhosa das belezas naturais é também a dos tesouros arquitetônicos</h3>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -354,21 +370,46 @@
                 <ul class="list1">
                     <li class="item">
                         <a class="link open-video" href="#">
-                            <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil4.jpg">
-                            <h3 class="video-title">Programa da Prefeitura dá assistência a pessoas "invisíveis"</h3>
+                            <div class="meli-ultimos-kiri">
+                                <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil4.jpg">
+                            </div>
+                            <div class="meli-ultimos-kanan">
+                                <h3 class="video-title">Programa da Prefeitura dá assistência a pessoas "invisíveis"</h3>
+                            </div>
                         </a>
+                        <div class="clear"></div>
                     </li>
-                    <li class="item"> <a class="link open-video" href="#"> <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil5.jpg">
-                            <h3 class="video-title">Quer ser voluntário da Defesa Civil? Qualquer cidadão pode! Saiba como</h3>
-                        </a> </li>
                     <li class="item">
                         <a class="link open-video" href="#">
-                            <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil6.jpg">
-                            <h3 class="video-title">Moradias Assistidas: o lar doce lar de pessoas com deficiência</h3>
+                            <div class="meli-ultimos-kiri">
+                                <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil5.jpg">
+                            </div>
+                            <div class="meli-ultimos-kanan">
+                                <h3 class="video-title">Quer ser voluntário da Defesa Civil? Qualquer cidadão pode! Saiba como</h3>
+                            </div>
+                        </a>
+                        <div class="clear"></div>
+                    </li>
+                    <li class="item">
+                        <a class="link open-video" href="#">
+                            <div class="meli-ultimos-kiri">
+                                <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil6.jpg">
+                            </div>
+                            <div class="meli-ultimos-kanan">
+                                <h3 class="video-title">Moradias Assistidas: o lar doce lar de pessoas com deficiência</h3>
+                            </div>
                         </a>
                     </li>
                 </ul>
-                <a class="link-more" href="#"><u>Veja mais vídeos</u></a>
+            </div>
+        </div>
+        <div class="container bawah-meli">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4 offset-md-8">
+                    <a class="link-more" href="#"><u>Veja mais vídeos</u></a>
+                </div>
             </div>
         </div>
     </div>
@@ -399,7 +440,7 @@
                     <h3>
                         INSTAGRAM
                     </h3>
-                    <img src="<?php echo get_bloginfo('template_url') ?>/img/instagram.jpg">
+                    <img src="<?php echo get_bloginfo('template_url') ?>/img/instagram_salman.jpg">
                 </div>
                 <div class="col-sm-4">
                     <h3>

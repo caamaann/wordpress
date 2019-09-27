@@ -204,7 +204,7 @@ padding-left: 150px;
 /* TIARA */
 header{
   font-family: Calibri;
-  color: white;
+  /*  */
 }
 
 .bg-one{
@@ -220,6 +220,7 @@ header{
 .text, .font-btn{
   font-weight: bold;
   font-size: 16px;
+  color: white;
 }
 
 .my-auto{
@@ -259,6 +260,7 @@ header{
   float: right;
   margin-right: 200px;
   margin-left: 20px;
+  color: white;
 }
 
 #social-media p{
@@ -580,6 +582,11 @@ transform: scale(3);
     padding-bottom: 5%;
     padding-top: 2%;
 }
+.mycolom2 {
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
 
 ul.list {
     list-style: none;
@@ -603,7 +610,8 @@ ul.list1 {
 
 .open-video img{
     opacity: 0.6;
-    transition: 0.1s
+    transition: 0.1s;
+    width:100%;
 }
 .open-video img:hover{
     opacity: 1;
@@ -631,9 +639,20 @@ ul.list1 {
     border-bottom: 3px solid #1BB5D9;
 }
 
+.meli-ultimos-kiri{
+    width:30%; float: left;
+}
+.meli-ultimos-kanan{
+    width:70%; float: left; padding-left:10px;
+    box-sizing: border-box;
+}
+.destaq { 
+    margin-top:10px;
+}
 .gmbarvideo {
     display: inline;
-    max-width: 130px;
+    width:100%;
+    max-width: 100%;
 }
 
 .video-title {
@@ -684,6 +703,12 @@ h1.title {
 .subtitle {
     font-size: 16px;
     margin-top: 20px;
+}
+.clear{
+    clear:both;
+}
+.bawah-meli{
+
 }
 
 /* /MEL 
