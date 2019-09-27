@@ -658,6 +658,13 @@ ul.list1 {
     width:69%; float: left; padding-left:10px;
     box-sizing: border-box;
 }
+
+.meli-ultimos-kanan h3{
+    padding-top: 2%;
+    font-weight: bold;
+    font-size: 13px;
+    color: dimgray;
+}
 .destaq { 
     margin-top:10px;
 }
@@ -695,8 +702,12 @@ li:hover .video-title {
 }
 
 .link-more {
-    color: black;
+    color: dimgray;
     font-size: 14px;
+}
+
+.jaraklink{
+    padding-top:4%; 
 }
 
 .link-more:hover {
@@ -720,13 +731,11 @@ h1.title {
     clear:both;
 }
 
-
-/* /MEL 
 .texto {
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top:4%;
+    margin-left: 4%;
     display: inline-block;
-    width: 280px;
+    width: 50%;
     font-size: 18px;
 }
-/* /MEL */
+/* /MEL
