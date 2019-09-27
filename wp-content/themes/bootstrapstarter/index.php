@@ -343,7 +343,7 @@
                             <div class="meli-ultimos-kanan">
                                 <h3 class="video-title">Projeto Resgate Solidário acolhe pessoas em situação de rua em Copacabana</h3>
                             </div>
-                            <div class="clear">
+                            <div class="clear"></div>
                         </a> </li>
                     <li class="item">
                         <a class="link open-video" href="#">
@@ -372,6 +372,7 @@
                 <ul class="list1">
                     <li class="item">
                         <a class="link open-video" href="#">
+                            <div class="clear"></div>
                             <div class="meli-ultimos-kiri">
                                 <img class="gmbarvideo" src="<?php echo get_bloginfo('template_url') ?>/img/gmbrkecil4.jpg">
                             </div>
