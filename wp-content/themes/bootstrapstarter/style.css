@@ -340,9 +340,12 @@ header{
 
 .logo-dropdown{
   float: right;
-  max-width: 50px;
   display: none;
   margin-top: 20px;
+}
+
+.logo-dropdown img{
+  max-width: 50px;
 }
 
 @media screen and (max-width: 1300px){
@@ -352,6 +355,43 @@ header{
 
   .logo-dropdown{
     display: inline;
+  }
+
+  .logo-dropdown.active{
+    background-color: white;
+  }
+
+  .my-auto{
+    display: none;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .my-auto{
+    display: none;
+  }
+
+  #img3 img{
+    border: none;
+  }
+
+  #social-media{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .search-bar{
+    display: none;
+  }
+
+  .logo{
+    margin-left: 10px;
+  }
+
+  .bg-one{
+    display: none;
   }
 }
 

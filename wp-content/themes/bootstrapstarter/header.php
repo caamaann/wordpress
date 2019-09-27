@@ -135,7 +135,7 @@
                 <li class="nav-item"><a class="nav-link" href="#">OUVIDORIA</a></li>
             </ul>   
         </nav>
-        <img class="logo-dropdown" src="<?php echo get_bloginfo('template_url') ?>/img/dropdown-menu.jpg">
+        <a class="logo-dropdown" href="#"><img src="<?php echo get_bloginfo('template_url') ?>/img/dropdown-menu.jpg"></a>
     </div>
 </header>
 
