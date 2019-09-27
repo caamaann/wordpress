@@ -5,8 +5,10 @@
     <div class="container-fluid container-grid-zikri">
         <div class="container">
             <div class="grid-title-zikri">
+                <div class="garis-bawah-zikri">
                 <b>O QUE EU</b><br>
                 <h1>PRECISO?</h1>
+                </div>
                 <img class="img-fluid arrow-image" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
                 <img class="img-fluid zikri-rio" src="<?php echo get_bloginfo('template_url') ?>/img/bg_header.png">
             </div>
@@ -225,7 +227,7 @@
                     </header>
                 </div>
                 <div class="col-sm-1">
-                    <img class="img-fluid imgs" src="<?php echo get_bloginfo('template_url') ?>/img/list.jpg">
+                    <img class="img-fluid burger-afif" src="<?php echo get_bloginfo('template_url') ?>/img/list.jpg">
                 </div>
             </div>
             <div class="efek">
