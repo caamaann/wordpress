@@ -437,13 +437,12 @@
                         FACEBOOK
                     </h3>
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fjtkpolban%2F&tabs=timeline&width=305&height=301&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=403825346944719" width="305" height="301" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                    <!-- <img src="<?php echo get_bloginfo('template_url') ?>/img/facebook.jpg"> -->
                 </div>
                 <div class="col-sm-4">
                     <h3>
                         INSTAGRAM
                     </h3>
-                    <img src="<?php echo get_bloginfo('template_url') ?>/img/instagram_salman.jpg">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/instagram_salman.jpg">
                 </div>
                 <div class="col-sm-4">
                     <h3>
@@ -453,7 +452,6 @@
                         Tweets by @man_fizh
                     </a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    <!-- <img src="<?php echo get_bloginfo('template_url') ?>/img/twitter.jpg"> -->
                 </div>
             </div>
             <div class="row contentFale">
