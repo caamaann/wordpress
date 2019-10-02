@@ -312,7 +312,7 @@ header{
   margin-left: 32px;
 }
 
-.navbar-nav .first{
+.navbar-nav .dropdown:first-of-type{
   margin-left: 0px;
 }
 
