@@ -31,7 +31,7 @@
                     <div class="inline plus">+A</div>
                 </div>
             </div>
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 my-auto2">
                 <div id="social-media">
                     <p>Administrador</p>
                     <div class="social-img">
@@ -69,7 +69,7 @@
             <input type="search" placeholder="O que você procura?">
             <img src="<?php echo get_bloginfo('template_url') ?>/img/magnifier.jpg">
         </div>
-        <nav class="navbar">
+        <nav class="navbar nav-collapse collapse-show">
             <ul class="navbar-nav">
                 <li class="nav-item first dropdown">
                     <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">A PREFEITURA</a>
@@ -135,7 +135,7 @@
                 <li class="nav-item"><a class="nav-link" href="#">OUVIDORIA</a></li>
             </ul>   
         </nav>
-        <img class="logo-dropdown" src="<?php echo get_bloginfo('template_url') ?>/img/dropdown-menu.jpg">
+        <a class="logo-dropdown" href="#"><img src="<?php echo get_bloginfo('template_url') ?>/img/dropdown-menu.jpg"></a>
     </div>
 </header>
 

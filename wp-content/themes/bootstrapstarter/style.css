@@ -214,7 +214,6 @@ padding-left: 150px;
 /* TIARA */
 header{
   font-family: Calibri;
-  /*  */
 }
 
 .bg-one{
@@ -223,7 +222,7 @@ header{
 }
 
 .bg-two{
-  background-color: #00b8e6;
+  background-color: #1bb5da;
   min-height: 78px;
 }
 
@@ -234,7 +233,7 @@ header{
 }
 
 .my-auto{
-  margin-top: 2%;
+  margin-top: 25px;
 }
 
 .inline{
@@ -246,29 +245,29 @@ header{
 .plus{ margin-left: 5px; }
 
 #img1 img{ 
-  max-width: 130px; 
+  max-width: 128px; 
   margin-right: 18px;
 }
 
 #img2 img{ 
-  max-width: 90px; 
+  max-width: 88px; 
   margin-right: 18px;
 }
 
 #img3 img{ 
-  max-width: 150px; 
+  max-width: 148px; 
   border-right: 1px solid white;
   padding-right: 18px;
 }
 
 .header-img{
   float: right;
-  margin-top: 1.5%;
+  margin-top: 20px;
 }
 
 #social-media{
   float: right;
-  margin-right: 200px;
+  margin-right: 180px;
   margin-left: 20px;
   color: white;
 }
@@ -326,7 +325,16 @@ header{
   background-color: #00b8e6;
   padding: 10px;
   border: 2px solid #008fbe;
-  width: 100%;
+  width: 336px;
+  text-align: left;
+}
+
+.dropdown-item{
+  margin-left: 10px;
+  margin-right: 18px;
+  margin-bottom: 3px;
+  display: block;
+  border-bottom: 1px dotted #34ebe1;
 }
 
 .search-bar{
@@ -352,19 +360,79 @@ header{
 
 .logo-dropdown{
   float: right;
-  max-width: 50px;
   display: none;
   margin-top: 20px;
 }
 
+.logo-dropdown img{
+  max-width: 50px;
+}
+
 @media screen and (max-width: 1300px){
-  .navbar{
-    display: none;
+  .navbar-nav{ margin-right: 160px; }
+  #social-media{ margin-right: 120px; }
+  .text{ margin-left: 170px; }
+  .logo{ margin-left: 40px; }
+}
+
+@media screen and (max-width: 1200px){
+  .navbar-nav{
+    margin-right: 110px;
+    padding-left: 0px;
   }
 
-  .logo-dropdown{
-    display: inline;
+  #social-media{ margin-right: 75px; }
+  .text{ margin-left: 130px; }
+  .logo{ margin-left: 5px; }
+}
+
+@media screen and (max-width: 1100px){
+  .navbar-nav{
+    margin-right: 100px;
+    padding-left: 0px;
   }
+
+  .nav-item{ margin-left: 15px; }
+  #social-media{ margin-right: 0px; }
+  .text{ margin-left: 70px; }
+}
+
+@media screen and (max-width: 1000px){
+  .navbar{ display: none; }
+  .search-bar{ display: none; }
+  .logo-dropdown{ display: inline; }
+/*  .logo-dropdown:active{ display: none; }*/
+}
+
+@media screen and (max-width: 950px){
+  #img1 img{ margin-right: 10px; width: 118px; }
+  #img2 img{ margin-right: 10px; width: 78px; }
+  #img3 img{ width: 138px; }
+}
+
+@media screen and (max-width: 850px){
+  .text{ margin-left: 20px; }
+  #img1 img{ width: 110px; }
+  #img2 img{ width: 70px; }
+  #img3 img{ width: 130px; }
+}
+
+@media screen and (max-width: 800px){
+  .minus{ margin-left: 20px; }
+  .my-auto, .my-auto2{ padding: 0px; }
+}
+
+@media screen and (max-width: 760px){
+  .text, .minus{ margin-left: 10px; }
+  .my-auto{ width: 200px; }
+  #social-media{ margin-right: -40px; }
+}
+
+@media screen and (max-width: 700px){
+  .text{ display: none; }
+  .my-auto{ width: 100px; }
+  .minus{ margin-left: 40px; }
+  #social-media{ margin-right: -100px; } 
 }
 
 /* /TIARA */
