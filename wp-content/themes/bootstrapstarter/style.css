@@ -134,12 +134,26 @@ CEK DULU APAKAH UDAH ADA ATAU BELUM
     }   
 }
 
+.comments-title, #reply-title{
+    font-size: 12pt;
+    color :  #777777;
+    font-weight: bold;
+}
+
 .comment-list{
     list-style-type: none;
+    padding:0px;
+}
+
+.comment-meta{
+    margin-top:5px;
 }
 
 .comment-list > li {
-    
+    padding:10px;
+    box-sizing: border-box;
+    border: 1px solid #E7E7E7;
+    margin: 2% 0px;
 }
 
 /* /FARHAN */
