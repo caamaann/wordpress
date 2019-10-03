@@ -1,14 +1,7 @@
-<?php
-
-// $current_page = get_queried_object();
-// $content      = apply_filters('the_content', $current_page->post_content);
-// echo $content;
-?>
-
 <article class="container-fluid">
     <div class="container">
         <?php
-        if (have_posts()) :
+        if (have_posts()) {
             while (have_posts()) :
                 the_post();
         ?>
@@ -24,10 +17,13 @@
 
         <?php
             endwhile;
-        else :
+            comments_template();
+        }   
+        else{
             echo "<p>Sorry, no posts matched your criteria.</p>";
-        endif;
-        ?>
+        }
+        
 
+        ?>
     </div>
 </article>

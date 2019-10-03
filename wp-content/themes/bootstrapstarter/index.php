@@ -1,15 +1,17 @@
-<?php get_header(); 
+<?php get_header();
 
-$pagename = get_query_var('pagename');  
-switch($pagename){
+$pagename = get_query_var('pagename');
+
+switch ($pagename) {
     case "":
-        get_template_part( 'landing' ); 
-    break;
-    case "sample-page":
-        $current_page = get_queried_object();
-        $content      = apply_filters( 'the_content', $current_page -> post_content );
-        echo $content;
-    break;
+        if (is_single()) {
+            get_template_part('content-single');
+        } else {
+            get_template_part('landing');
+        }
+        break;
+    case "blogs":
+        get_template_part('content');
+        break;
 }
-get_footer(); 
-?>
+get_footer();

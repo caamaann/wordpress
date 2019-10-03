@@ -109,8 +109,42 @@ CEK DULU APAKAH UDAH ADA ATAU BELUM
 .foot2>div>div>div {
     text-align: center;
 }
-/* FARHAN */
+
+.pv_artikel {
+    height: auto;
+    width: 100%;
+    margin: 2% 0;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.pv_artikel > .tgl_artikel{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 12pt;
+    color: #777777;
+}
+.pv_artikel .judul_artikel{
+    font-size: 16pt;
+    color :  #555555;
+}
+@media screen and (max-width: 760px){
+    .pv_artikel > .tgl_artikel{
+        font-size: 12pt;
+    }   
+}
+
+.comment-list{
+    list-style-type: none;
+}
+
+.comment-list > li {
+    
+}
+
 /* /FARHAN */
+
+
 /* ZIKRI */
 .garis-bawah-zikri{
     position: relative;
