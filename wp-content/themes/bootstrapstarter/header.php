@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,63 +15,74 @@
 </head>
 
 <body <?php body_class(); ?>>
-<!-- 
+    <!-- 
     CONTOH KALAU MAU ADD IMAGE : 
     - Masukin image ke folder img
     - panggil script dibawah ini, harus sama ya. nama filenya doang yg beda
     <img src="<?php echo get_bloginfo('template_url') ?>/img/171524024.jpg"> 
 -->
 
-<header>
-    <div class="container-fluid bg-one">
-        <div class="row">
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 my-auto">
-                <div class="text inline">ACESSIBILIDADE</div>
-                <div class="font-btn inline">
-                    <div class="inline minus">-A</div>
-                    <div class="inline plus">+A</div>
+    <header>
+        <div class="container-fluid bg-one">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 my-auto">
+                    <div class="text inline">ACESSIBILIDADE</div>
+                    <div class="font-btn inline">
+                        <div class="inline minus">-A</div>
+                        <div class="inline plus">+A</div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                <div id="social-media">
-                    <p>Administrador</p>
-                    <div class="social-img">
-                        <a href="https://twitter.com/Prefeitura_Rio">
-                            <img src="<?php echo get_bloginfo('template_url') ?>/img/twitter.jpg">
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 my-auto2">
+                    <div id="social-media">
+                        <p>Administrador</p>
+                        <div class="social-img">
+                            <a href="https://twitter.com/Prefeitura_Rio">
+                                <img src="<?php echo get_bloginfo('template_url') ?>/img/twitter.jpg">
+                            </a>
+                            <a href="https://www.facebook.com/PrefeituradoRio">
+                                <img src="<?php echo get_bloginfo('template_url') ?>/img/facebook.jpg">
+                            </a>
+                            <a href="https://www.instagram.com/prefeitura_rio/">
+                                <img src="<?php echo get_bloginfo('template_url') ?>/img/instagram.jpg">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCBf3rlo_iHd4kRePPhFXDUQ">
+                                <img src="<?php echo get_bloginfo('template_url') ?>/img/youtube.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-img">
+                        <a id="img1" href="#">
+                            <img src="<?php echo get_bloginfo('template_url') ?>/img/img1.jpg">
                         </a>
-                        <a href="https://www.facebook.com/PrefeituradoRio">
-                            <img src="<?php echo get_bloginfo('template_url') ?>/img/facebook.jpg">
+                        <a id="img2" href="https://www.1746.rio/">
+                            <img src="<?php echo get_bloginfo('template_url') ?>/img/img2.jpg">
                         </a>
-                        <a href="https://www.instagram.com/prefeitura_rio/">
-                            <img src="<?php echo get_bloginfo('template_url') ?>/img/instagram.jpg">
-                        </a>
-                        <a href="https://www.youtube.com/channel/UCBf3rlo_iHd4kRePPhFXDUQ">
-                            <img src="<?php echo get_bloginfo('template_url') ?>/img/youtube.jpg">
+                        <a id="img3" href="http://prefeitura.rio/web/transparencia">
+                            <img src="<?php echo get_bloginfo('template_url') ?>/img/img3.jpg">
                         </a>
                     </div>
                 </div>
-                <div class="header-img">
-                    <a id="img1" href="#">
-                        <img src="<?php echo get_bloginfo('template_url') ?>/img/img1.jpg">
-                    </a>
-                    <a id="img2" href="https://www.1746.rio/">
-                        <img src="<?php echo get_bloginfo('template_url') ?>/img/img2.jpg">
-                    </a>
-                    <a id="img3" href="http://prefeitura.rio/web/transparencia">
-                        <img src="<?php echo get_bloginfo('template_url') ?>/img/img3.jpg">
-                    </a>
-                </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid bg-two">
-        <a class="logo" href="#"><img src="<?php echo get_bloginfo('template_url') ?>/img/logo.jpg"></a>
-        <div class="search-bar">
-            <input type="search" placeholder="O que você procura?">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/magnifier.jpg">
-        </div>
-        <nav class="navbar">
-            <ul class="navbar-nav">
+        <div class="container-fluid bg-two">
+            <a class="logo" href="#"><img src="<?php echo get_bloginfo('template_url') ?>/img/logo.jpg"></a>
+            <div class="search-bar">
+                <input type="search" placeholder="O que você procura?">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/magnifier.jpg">
+            </div>
+            <nav class="navbar nav-collapse collapse-show">
+                <ul class="navbar-nav">
+                <?php
+                $pages = get_pages();
+                foreach ($pages as $page) {
+                ?>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbardrop" href="<?php echo get_page_link($page) ?>"><?php echo get_the_title($page) ?></a>
+                    </li>
+                <?php
+                }
+                ?>
+                <!-- <ul class="navbar-nav">
                 <li class="nav-item first dropdown">
                     <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">A PREFEITURA</a>
                     <div class="dropdown-menu">
@@ -133,13 +145,13 @@
                     </div>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#">OUVIDORIA</a></li>
-            </ul>   
-        </nav>
-        <img class="logo-dropdown" src="<?php echo get_bloginfo('template_url') ?>/img/dropdown-menu.jpg">
-    </div>
-</header>
+            </ul>    -->
+            </nav>
+            <a class="logo-dropdown" href="#"><img src="<?php echo get_bloginfo('template_url') ?>/img/dropdown-menu.jpg"></a>
+        </div>
+    </header>
 
-<!-- <div class="blog-masthead">
+    <!-- <div class="blog-masthead">
     <div class="container">
         <nav class="blog-nav">
             <a class="blog-nav-item active" href="#">Home</a>
