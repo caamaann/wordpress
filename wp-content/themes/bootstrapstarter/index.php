@@ -155,9 +155,11 @@
     <div class="service container-fluid">
         <div class="container">
             <div class="servicos">
-                <p><b>Serviços</b><br>1746</p>
+                <h1>
+                    <span><b>Serviços</b><br>1746</span>
+                </h1>
             </div>
-            <img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
+            <img class="arrow img-fluid" src="<?php echo get_bloginfo('template_url') ?>/img/arrow.png">
 
             <div class="d-flex flex-zikri-gita">
                 <div class="box text-center">
